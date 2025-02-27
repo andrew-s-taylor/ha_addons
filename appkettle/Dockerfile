@@ -14,7 +14,7 @@ RUN \
 #  pycryptodomex
 
 RUN \
-  apk add --no-cache
+  apk add --no-cache \
     python3 \
     py3-pip \
     py3-paho-mqtt \
