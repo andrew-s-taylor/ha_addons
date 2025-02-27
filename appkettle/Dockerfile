@@ -13,6 +13,7 @@ RUN \
 #RUN pip install paho.mqtt \
 #  pycryptodomex
 
+RUN \
 apk add --no-cache
 python3
 py3-pip
